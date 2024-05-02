@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewFirstNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name:"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFirstNameLabel"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewLastNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name:"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewFirstName"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLastNameLabel"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewBirthdayLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday:"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewLastName"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewBirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewBirthdayLabel"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewAgeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age:"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewBirthday"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAgeLabel"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewAge"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewEmailLabel"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewMobileNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number:"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewEmail"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewMobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewMobileNumberLabel"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewAddressLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewMobileNumber"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAddressLabel"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewContactPersonLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Person:"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewAddress"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewContactPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewContactPersonLabel"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewContactPersonPhoneNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Person's Phone Number:"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewContactPerson"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewContactPersonPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewContactPersonPhoneNumberLabel"
+        android:layout_marginStart="16dp"/>
+
+</RelativeLayout>
